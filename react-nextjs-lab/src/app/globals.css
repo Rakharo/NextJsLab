@@ -16,11 +16,17 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+}
+
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: white;
-  height: 100vh;
-  width: 100vw;
+  min-width: 100vw;
+  overflow-x: hidden;
 }
 
 main {
