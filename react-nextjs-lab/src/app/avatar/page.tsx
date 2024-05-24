@@ -11,7 +11,7 @@ export default function Avatar() {
         <Box>
             <InputTest />
             <Box>
-                <h1 className="text-black">Avatar</h1>
+                <h1 className="text-black flex justify-center font-bold text-[24pt] mt-[1em]">Coleção Diária</h1>
                 <CharacterInfo />
             </Box>
         </Box>
